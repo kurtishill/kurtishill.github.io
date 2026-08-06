@@ -1,168 +1,337 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Kurt Hill is a senior mobile architect and full-stack product engineer specializing in Flutter, Firebase, TypeScript, and cloud systems.">
-  <meta name="theme-color" content="#0b1312">
-  <meta property="og:title" content="Kurt Hill — Mobile Architect & Product Engineer">
-  <meta property="og:description" content="Thoughtful mobile products backed by strong architecture.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://kurtishill.github.io/">
-  <title>Kurt Hill — Mobile Architect &amp; Product Engineer</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/portfolio.css">
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Kurt Hill is a senior mobile architect and full-stack product engineer specializing in Flutter, Firebase, TypeScript, and cloud systems."
+    />
+    <meta name="theme-color" content="#0b1312" />
+    <meta
+      property="og:title"
+      content="Kurt Hill — Mobile Architect & Product Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Thoughtful mobile products backed by strong architecture."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kurtishill.github.io/" />
+    <title>Kurt Hill — Mobile Architect &amp; Product Engineer</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Kurt Hill, home">
-      <span class="brand-mark" aria-hidden="true">KH</span>
-      <span>Kurt Hill</span>
-    </a>
-    <nav aria-label="Primary navigation">
-      <a href="#work">Work</a>
-      <a href="#capabilities">Capabilities</a>
-      <a href="#about">About</a>
-      <a class="nav-contact" href="#contact">Let’s talk</a>
-    </nav>
-  </header>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Kurt Hill, home">
+        <span class="brand-mark" aria-hidden="true">KH</span>
+        <span>Kurt Hill</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Let’s talk</a>
+      </nav>
+    </header>
 
-  <main id="main">
-    <section class="hero" id="top">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> Senior mobile architect &amp; product engineer</p>
-        <h1>I build mobile products <em>engineered for what comes next.</em></h1>
-        <p class="hero-intro">From product architecture to polished user experiences, I design and deliver dependable applications across mobile, backend, and cloud.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
-          <a class="button button-secondary" href="mailto:kurtishill.dev@gmail.com">Get in touch</a>
-        </div>
-      </div>
-      <div class="hero-aside" aria-label="Areas of expertise">
-        <p class="aside-label">What I bring</p>
-        <div class="expertise-item">
-          <span>01</span>
-          <div><strong>Product thinking</strong><small>Turning real needs into focused experiences</small></div>
-        </div>
-        <div class="expertise-item">
-          <span>02</span>
-          <div><strong>Technical direction</strong><small>Architecture that supports the product’s future</small></div>
-        </div>
-        <div class="expertise-item">
-          <span>03</span>
-          <div><strong>End-to-end delivery</strong><small>Mobile, backend, cloud, and release</small></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section work" id="work">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Selected work</p>
-          <h2>Complex products, made clear.</h2>
-        </div>
-        <p>Two examples of how I combine product judgment, system design, and hands-on engineering to create software that can keep evolving.</p>
-      </div>
-
-      <article class="case-study case-golf">
-        <div class="case-copy">
-          <div class="case-meta"><span>01</span><span>Mobile architecture · Scoring systems</span></div>
-          <h3>GolfApp</h3>
-          <p class="case-lead">A ground-up architectural transformation of a production golf platform.</p>
-          <p>I redesigned a tightly coupled Flutter and Firebase application into a layered, testable system—while the product remained in active use. The new foundation made features safer to build, easier to reason about, and ready for a much broader range of game formats.</p>
-          <ul class="results" aria-label="Project highlights">
-            <li><strong>80%+</strong><span>UI-bound business logic moved into clear domain layers</span></li>
-            <li><strong>7</strong><span>Distinct golf game formats supported by one extensible engine</span></li>
-          </ul>
-          <div class="tags"><span>Flutter</span><span>Dart</span><span>TypeScript</span><span>Firebase</span><span>GCP</span></div>
-        </div>
-        <div class="case-visual" aria-hidden="true">
-          <div class="scorecard-shell">
-            <div class="scorecard-top"><span>ROUND IN PROGRESS</span><b>16</b></div>
-            <div class="hole-label">CURRENT HOLE</div>
-            <div class="hole-number">12</div>
-            <div class="hole-stats"><span><small>PAR</small>4</span><span><small>YARDS</small>418</span><span><small>HCP</small>3</span></div>
-            <div class="players"><span><i>KH</i><b>+1</b></span><span><i>JM</i><b>E</b></span><span><i>RS</i><b>−2</b></span></div>
-          </div>
-          <span class="visual-note note-one">Normalized scorecard</span>
-          <span class="visual-note note-two">Game-agnostic engine</span>
-        </div>
-      </article>
-
-      <article class="case-study case-cse">
-        <div class="case-copy">
-          <div class="case-meta"><span>02</span><span>Product engineering · Platform ownership</span></div>
-          <h3>Clean Simple Eats</h3>
-          <p class="case-lead">Full-stack ownership of a consumer wellness app used every day.</p>
-          <p>As lead Flutter architect, I guided the application across recipes, macro tracking, meal planning, shopping, workouts, and commerce. My work spanned user experience, application architecture, native integrations, and the Firebase and Google Cloud systems behind it.</p>
-          <ul class="results" aria-label="Project highlights">
-            <li><strong>iOS + Android</strong><span>One cohesive product experience across both platforms</span></li>
-            <li><strong>End to end</strong><span>Architecture, implementation, cloud systems, and release</span></li>
-          </ul>
-          <div class="tags"><span>Flutter</span><span>Firebase</span><span>Cloud Functions</span><span>GCP</span><span>Shopify</span></div>
-        </div>
-        <div class="case-visual wellness-visual" aria-hidden="true">
-          <div class="phone phone-back">
-            <div class="phone-status"></div>
-            <p>Good morning</p><h4>Your day</h4>
-            <div class="macro-ring"><span>72%</span></div>
-            <div class="macro-bars"><i></i><i></i><i></i></div>
-          </div>
-          <div class="phone phone-front">
-            <div class="phone-status"></div>
-            <p>Meal plan</p><h4>Wednesday</h4>
-            <div class="meal-photo"></div>
-            <b>Chicken avocado bowl</b>
-            <small>Balanced · 32g protein</small>
-            <div class="meal-row"><i></i><span></span></div>
-            <div class="meal-row"><i></i><span></span></div>
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span> Senior mobile architect &amp;
+            product engineer
+          </p>
+          <h1>
+            I build mobile products <em>engineered for what comes next.</em>
+          </h1>
+          <p class="hero-intro">
+            From product architecture to polished user experiences, I design and
+            deliver dependable applications across mobile, backend, and cloud.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work"
+              >Explore my work <span aria-hidden="true">↘</span></a
+            >
+            <a
+              class="button button-secondary"
+              href="mailto:kurtishill.dev@gmail.com"
+              >Get in touch</a
+            >
           </div>
         </div>
-      </article>
-    </section>
-
-    <section class="section capabilities" id="capabilities">
-      <div class="section-heading">
-        <div><p class="eyebrow">Capabilities</p><h2>Strategy through shipping.</h2></div>
-        <p>I’m most useful where product decisions and technical decisions meet—the point where a good foundation changes what a team can build.</p>
-      </div>
-      <div class="capability-grid">
-        <article><span>01</span><h3>Mobile product development</h3><p>Polished cross-platform applications with thoughtful interaction, responsive UI, and native integrations.</p><small>Flutter · Dart · iOS · Android</small></article>
-        <article><span>02</span><h3>Architecture &amp; technical direction</h3><p>Clear boundaries, dependable state management, testable domain logic, and systems designed to evolve.</p><small>System design · Testing · Mentorship</small></article>
-        <article><span>03</span><h3>Backend &amp; cloud systems</h3><p>Secure, scalable application services—from data modeling and APIs to event-driven workflows.</p><small>Firebase · TypeScript · Node · GCP</small></article>
-        <article><span>04</span><h3>Product modernization</h3><p>Pragmatic transformation of established products without stopping the work that moves them forward.</p><small>Refactoring · Migration · Performance</small></article>
-      </div>
-    </section>
-
-    <section class="section about" id="about">
-      <div class="about-title"><p class="eyebrow">About</p><h2>Engineering with the whole product in view.</h2></div>
-      <div class="about-copy">
-        <p class="large-copy">I’m Kurt, a senior mobile engineer who cares equally about the experience people touch and the systems that make it possible.</p>
-        <p>I’ve led architecture, built full-stack features, untangled legacy systems, and carried products from an early idea through production. I enjoy the hard middle of product development: understanding the real problem, choosing the right abstraction, and turning it into something clear and dependable.</p>
-        <p>Whether I’m joining a team or partnering as a consultant, I bring ownership, direct communication, and a bias toward durable solutions.</p>
-        <div class="principles">
-          <span><b>01</b>Understand before abstracting</span>
-          <span><b>02</b>Make complexity earn its place</span>
-          <span><b>03</b>Build for people and change</span>
+        <div class="hero-aside" aria-label="Areas of expertise">
+          <p class="aside-label">What I bring</p>
+          <div class="expertise-item">
+            <span>01</span>
+            <div>
+              <strong>Product thinking</strong
+              ><small>Turning real needs into focused experiences</small>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <span>02</span>
+            <div>
+              <strong>Technical direction</strong
+              ><small>Architecture that supports the product’s future</small>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <span>03</span>
+            <div>
+              <strong>End-to-end delivery</strong
+              ><small>Mobile, backend, cloud, and release</small>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <section class="section work" id="work">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Complex products, made clear.</h2>
+          </div>
+          <p>
+            Two examples of how I combine product judgment, system design, and
+            hands-on engineering to create software that can keep evolving.
+          </p>
+        </div>
+
+        <article class="case-study case-golf">
+          <div class="case-copy">
+            <div class="case-meta">
+              <span>01</span><span>Mobile architecture · Scoring systems</span>
+            </div>
+            <h3>Social Golf Gaming App</h3>
+            <p class="case-lead">
+              A ground-up architectural transformation of a production golf
+              platform.
+            </p>
+            <p>
+              I redesigned a tightly coupled Flutter and Firebase application
+              into a layered, testable system—while the product remained in
+              active use. The new foundation made features safer to build,
+              easier to reason about, and ready for a much broader range of game
+              formats.
+            </p>
+            <ul class="results" aria-label="Project highlights">
+              <li>
+                <strong>80%+</strong
+                ><span
+                  >UI-bound business logic moved into clear domain layers</span
+                >
+              </li>
+              <li>
+                <strong>7</strong
+                ><span
+                  >Distinct golf game formats supported by one extensible
+                  engine</span
+                >
+              </li>
+            </ul>
+            <div class="tags">
+              <span>Flutter</span><span>Dart</span><span>TypeScript</span
+              ><span>Firebase</span><span>GCP</span>
+            </div>
+          </div>
+          <div class="case-visual" aria-hidden="true">
+            <div class="scorecard-shell">
+              <div class="scorecard-top">
+                <span>ROUND IN PROGRESS</span><b>16</b>
+              </div>
+              <div class="hole-label">CURRENT HOLE</div>
+              <div class="hole-number">12</div>
+              <div class="hole-stats">
+                <span><small>PAR</small>4</span
+                ><span><small>YARDS</small>418</span
+                ><span><small>HCP</small>3</span>
+              </div>
+              <div class="players">
+                <span><i>KH</i><b>+1</b></span
+                ><span><i>JM</i><b>E</b></span
+                ><span><i>RS</i><b>−2</b></span>
+              </div>
+            </div>
+            <span class="visual-note note-one">Normalized scorecard</span>
+            <span class="visual-note note-two">Game-agnostic engine</span>
+          </div>
+        </article>
+
+        <article class="case-study case-cse">
+          <div class="case-copy">
+            <div class="case-meta">
+              <span>02</span
+              ><span>Product engineering · Platform ownership</span>
+            </div>
+            <h3>Health & Wellness App</h3>
+            <p class="case-lead">
+              Full-stack ownership of a consumer wellness app used every day.
+            </p>
+            <p>
+              As lead Flutter architect, I guided the application across
+              recipes, macro tracking, meal planning, shopping, workouts, and
+              commerce. My work spanned user experience, application
+              architecture, native integrations, and the Firebase and Google
+              Cloud systems behind it.
+            </p>
+            <ul class="results" aria-label="Project highlights">
+              <li>
+                <strong>iOS + Android</strong
+                ><span
+                  >One cohesive product experience across both platforms</span
+                >
+              </li>
+              <li>
+                <strong>End to end</strong
+                ><span
+                  >Architecture, implementation, cloud systems, and
+                  release</span
+                >
+              </li>
+            </ul>
+            <div class="tags">
+              <span>Flutter</span><span>Firebase</span
+              ><span>Cloud Functions</span><span>GCP</span><span>Shopify</span>
+            </div>
+          </div>
+          <div class="case-visual wellness-visual" aria-hidden="true">
+            <div class="phone phone-back">
+              <div class="phone-status"></div>
+              <p>Good morning</p>
+              <h4>Your day</h4>
+              <div class="macro-ring"><span>72%</span></div>
+              <div class="macro-bars"><i></i><i></i><i></i></div>
+            </div>
+            <div class="phone phone-front">
+              <div class="phone-status"></div>
+              <p>Meal plan</p>
+              <h4>Wednesday</h4>
+              <div class="meal-photo"></div>
+              <b>Chicken avocado bowl</b>
+              <small>Balanced · 32g protein</small>
+              <div class="meal-row"><i></i><span></span></div>
+              <div class="meal-row"><i></i><span></span></div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section capabilities" id="capabilities">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Capabilities</p>
+            <h2>Strategy through shipping.</h2>
+          </div>
+          <p>
+            I’m most useful where product decisions and technical decisions
+            meet—the point where a good foundation changes what a team can
+            build.
+          </p>
+        </div>
+        <div class="capability-grid">
+          <article>
+            <span>01</span>
+            <h3>Mobile product development</h3>
+            <p>
+              Polished cross-platform applications with thoughtful interaction,
+              responsive UI, and native integrations.
+            </p>
+            <small>Flutter · Dart · iOS · Android</small>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Architecture &amp; technical direction</h3>
+            <p>
+              Clear boundaries, dependable state management, testable domain
+              logic, and systems designed to evolve.
+            </p>
+            <small>System design · Testing · Mentorship</small>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Backend &amp; cloud systems</h3>
+            <p>
+              Secure, scalable application services—from data modeling and APIs
+              to event-driven workflows.
+            </p>
+            <small>Firebase · TypeScript · Node · GCP</small>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Product modernization</h3>
+            <p>
+              Pragmatic transformation of established products without stopping
+              the work that moves them forward.
+            </p>
+            <small>Refactoring · Migration · Performance</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="about-title">
+          <p class="eyebrow">About</p>
+          <h2>Engineering with the whole product in view.</h2>
+        </div>
+        <div class="about-copy">
+          <p class="large-copy">
+            I’m Kurt, a senior mobile engineer who cares equally about the
+            experience people touch and the systems that make it possible.
+          </p>
+          <p>
+            I’ve led architecture, built full-stack features, untangled legacy
+            systems, and carried products from an early idea through production.
+            I enjoy the hard middle of product development: understanding the
+            real problem, choosing the right abstraction, and turning it into
+            something clear and dependable.
+          </p>
+          <p>
+            Whether I’m joining a team or partnering as a consultant, I bring
+            ownership, direct communication, and a bias toward durable
+            solutions.
+          </p>
+          <div class="principles">
+            <span><b>01</b>Understand before abstracting</span>
+            <span><b>02</b>Make complexity earn its place</span>
+            <span><b>03</b>Build for people and change</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <p class="eyebrow">Start a conversation</p>
+        <h2>Building something that deserves a strong foundation?</h2>
+        <p>
+          I’m open to senior engineering roles and select consulting
+          engagements.
+        </p>
+        <a class="contact-link" href="mailto:kurtishill.dev@gmail.com"
+          >kurtishill.dev@gmail.com <span aria-hidden="true">↗</span></a
+        >
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand" href="#top"
+        ><span class="brand-mark" aria-hidden="true">KH</span
+        ><span>Kurt Hill</span></a
+      >
+      <p>Mobile architect &amp; product engineer</p>
+      <div class="footer-links">
+        <a href="https://github.com/kurtishill" target="_blank" rel="noreferrer"
+          >GitHub ↗</a
+        ><a
+          href="https://www.linkedin.com/in/kurt-hill212"
+          target="_blank"
+          rel="noreferrer"
+          >LinkedIn ↗</a
+        >
       </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <p class="eyebrow">Start a conversation</p>
-      <h2>Building something that deserves a strong foundation?</h2>
-      <p>I’m open to senior engineering roles and select consulting engagements.</p>
-      <a class="contact-link" href="mailto:kurtishill.dev@gmail.com">kurtishill.dev@gmail.com <span aria-hidden="true">↗</span></a>
-    </section>
-  </main>
-
-  <footer>
-    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">KH</span><span>Kurt Hill</span></a>
-    <p>Mobile architect &amp; product engineer</p>
-    <div class="footer-links"><a href="https://github.com/kurtishill" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/kurt-hill212" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
-    <small>© 2026 Kurt Hill</small>
-  </footer>
-</body>
+      <small>© 2026 Kurt Hill</small>
+    </footer>
+  </body>
 </html>
